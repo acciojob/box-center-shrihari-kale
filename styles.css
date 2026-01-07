@@ -1,4 +1,9 @@
 /*  your css code here. If applicable */
+body {
+    margin: 0;         
+    height: 100vh;      
+    display: relative;    
+}
 .box{
 	height:200px;
 	width:200px;
@@ -7,5 +12,8 @@
 	position:absolute;
 	top:50%;
 	left:50%;
-	
+	color:purple;
+	display:flex;
+	justify-content:center;
+	align-items:center;
 }
